@@ -1,0 +1,98 @@
+/* PC  */
+@media (min-width: 64em) {
+    
+}
+
+/* Tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    
+}
+
+@media (max-width:46.1875em) {
+
+    #header {
+        overflow: hidden;
+    }
+
+    #menu-mobile, 
+    #header .nav-lists li {
+        display: block;
+    }
+
+    #header .nav-lists li:first-child {
+        display: inline-block;
+    }
+
+    #header .nav-lists li + li a{
+        padding: 4px 16px;
+    }
+
+    #search-icon {
+        display: none;
+    }
+
+    #slider .slider__heading span {
+        display: none;
+    }
+
+    .body-content .about-me {
+        display: block;
+    }
+
+    .about-me .name-avatar {
+        width: 100%;
+    }
+
+    .about-me .desc-about {
+        display: none;
+    }
+
+    #interactive {
+        display: block;
+    }
+
+    #interactive .quantity {
+        width: 100%;
+    }
+
+    .work-lists {
+        display: block;
+    }
+
+    .work-lists .item-list {
+        width: 100%;
+    }
+
+    .item-list .item-img:hover {
+       transform: unset;
+    }
+
+    .contact-form,
+    .contact-form .user,
+    .content .contact-address {
+        display: block;
+    }
+
+    .contact-address .address p {
+        font-size: 22px;
+    }
+
+    .btn-send,
+    .contact-address .map,
+    .contact-form .user__login,
+    .contact-address .address {
+        width: 100%;
+    }
+
+    #footer .footer__icon {
+        font-size: 30px;
+        letter-spacing: 4px;
+    }
+
+}
+
+
+
+
+
+
