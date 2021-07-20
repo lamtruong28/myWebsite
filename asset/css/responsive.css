@@ -25,6 +25,7 @@
 
     #header .nav-lists li + li a{
         padding: 4px 16px;
+        border-bottom: 1px solid #ccc;
     }
 
     #search-icon {
