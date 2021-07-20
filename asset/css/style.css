@@ -95,8 +95,9 @@ html {
 
 #search-icon:hover {
     background-color: #f44336;
-    color: #fff;
+    color: #fff !important;
     cursor: pointer;
+    transition: all linear .25s;
 }
 
 #box-search {
@@ -457,6 +458,7 @@ html {
 #footer .footer__icon i:hover {
     color: rgb(0, 0, 255);
     cursor: pointer;
+    transition: all linear .25s;
 }
 
 #footer .coppy-right  a{
