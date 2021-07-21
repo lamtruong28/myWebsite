@@ -52,6 +52,7 @@ iconSearch.onclick = function() {
     var isHidden = boxSearch.style.display == boxSearchWidth;
     if(isHidden) {
         boxSearch.style.display = 'inline-block';
+        boxSearch.style.animation = 'show-box linear .3s';
     }else {
         boxSearch.style.display = null;
     }

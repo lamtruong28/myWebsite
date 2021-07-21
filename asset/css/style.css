@@ -111,6 +111,15 @@ html {
     display: none;
 }
 
+@keyframes show-box {
+    from {
+        width: 0;
+    }
+    to {
+        width: 25%;
+    }
+}
+
 /* CSS slider */
 
 #slider {
